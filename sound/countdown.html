@@ -1,0 +1,240 @@
+
+<!DOCTYPE html>
+
+<!--This page was made to complete the assignment: 
+
+   Mission Control, We Have Blastoff! 
+
+    By Rachel Boese-->
+
+
+
+<html lang="en">
+
+   
+<body>
+  <!--This is where the background sound goes-->
+   <embed src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" loop="true" autostart="true" width="2" height="0">
+    <center>
+  <h1> Countdown to Blastoff</h1>
+        
+          <script 
+                // use the set time out function for countdown
+               //The Script Tags are in Javascript 
+               src="spaceFunctions-3.js"></script>
+
+
+
+        <!-- <script >
+
+            
+
+// Purpose of the function is to start the countdown
+// and control the countdown
+        //function to start and control the countdown
+
+        function countDown(){
+ // Decalare variables
+    //variables
+
+
+ // used to display to user on screen
+    var count = 10;//displayed on screen
+
+
+
+          // used to keep track of actual time
+          // 1000=1 second because we are using milliseconds
+    var time = 10000;// real-time equivalent in milliseconds
+
+    
+
+    {
+
+    setTimeout(() => { //set the display time to 10
+
+        document.getElementById("countdownDisplay").innerHTML = "Blastoff!";//sets up the ending message
+
+        count = count - 1;
+
+    }, time)
+
+    time = time - 1000;
+
+
+
+    setTimeout(() => { //set the display time to 9
+
+        document.getElementById("countdownDisplay").innerHTML = count;
+
+        countDown = countDown - 1;
+
+    }, time)
+
+    time = time - 1000;
+
+
+
+    setTimeout(() => { //set the display time to 8
+
+        document.getElementById("countdownDisplay").innerHTML = count;
+
+        count = count - 1;
+
+    }, time)
+
+    time = time - 1000;
+
+
+
+    setTimeout(() => { //set the display time to 7
+
+        document.getElementById("countdownDisplay").innerHTML = count;
+
+        count = count - 1;
+
+    }, time)
+
+    time = time - 1000;
+
+
+
+    setTimeout(() => { //set the display time to 6
+
+        document.getElementById("countdownDisplay").innerHTML= count;
+
+        count = count - 1;
+
+    }, time)
+
+    time = time - 1000;
+
+    
+
+    setTimeout(() => { //set the display time to 5
+
+        document.getElementById("countdownDisplay").innerHTML= count;
+
+        count = count - 1;
+
+    }, time)
+
+    time = time - 1000;
+
+
+
+    setTimeout(() => { //set the display time to 4
+
+        document.getElementById("countdownDisplay").innerHTML= count;
+
+        count = count - 1;
+
+    }, time)
+
+    time = time - 1000;
+
+
+
+    setTimeout(() => { //set the display time to 3
+
+        document.getElementById("countdownDisplay").innerHTML= count;
+
+        count = count - 1;
+
+    }, time)
+
+    time = time - 1000;
+
+    
+
+    setTimeout(() => { //set the display time to 2
+
+        document.getElementById("countdownDisplay").innerHTML= count;
+
+        count = count - 1;
+
+    }, time)
+
+    time = time - 1000;
+
+
+
+    setTimeout(() => { //set the display time to 1
+
+        document.getElementById("countdownDisplay").innerHTML= count;
+
+        count = count - 1;
+
+    }, time)
+
+    time = time - 1000;
+
+
+
+    setTimeout(() => { //set the display time to 0
+
+        document.getElementById("countdownDisplay").innerHTML= count;
+
+        count = count - 1;
+
+    }, time)
+
+    time = time - 1000;
+
+
+
+    setTimeout(() => { //set the display time to Blastoff
+
+        document.getElementById("countdownDisplay").innerHTML= count;
+
+        count = count - 1;
+
+    }, time)
+
+    time = time - 1000;
+
+}
+
+  }
+
+
+
+        </script> -->
+
+        
+
+    
+
+    <body>
+
+        <!--the UAT logo-->
+
+        <img src="https://avatars.githubusercontent.com/u/46800279?s=280&v=4"/> 
+
+        <!--The main text-->
+
+        <h1>UAT Space Program</h1>
+
+
+        <p><!--Paragraph tags to give user context about countdown display-->
+
+            Get Ready for Takeoff
+
+        </p>
+
+        <!--the buttons-->
+
+        <button  onclick=" countDown()" style="background-color: #1797c6;">Start</button>
+
+        <button style="background-color: #e11a5b;">Stop </button>
+
+
+
+        <!--display the countdown to the user-->
+
+        <p id="countdownTimer" style="color:black">10</p>
+      </p> </center>
+        </body>
+        </html>
+
+
